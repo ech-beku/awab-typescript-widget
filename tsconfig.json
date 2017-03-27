@@ -1,0 +1,12 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": true,
+        "watch": true
+    },
+    "exclude": [
+        "jimu.js/jimu.d.ts"
+    ]
+}
