@@ -18,6 +18,10 @@ git clone https://github.com/ech-beku/awab-typescript-widget
   - tsconfig.json
   - node_modules/*
   - .vscode
+7. Open the folder awabBase/server/apps/2 with Visual Studio Code
+8. Press Ctrl + Shift + B to start the TypeScript Watch Task
+9. Open File widgets/TSWidgetTemplate/Widget.ts and start coding, it should compile itself when pressing Ctrl + S
+10. There are 2 errors from dojox.gfx3d.d.ts and dojox.lang.d.ts, ignore them :)
 
 
 
