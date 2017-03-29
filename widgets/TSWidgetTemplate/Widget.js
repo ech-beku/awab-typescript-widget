@@ -15,6 +15,8 @@ define(["require", "exports", "jimu/BaseWidget", "dojo/_base/lang"], function (r
         function Widget(args) {
             var _this = _super.call(this, lang.mixin({ baseClass: "a-new-ts-widget" }, args)) || this;
             _this.baseClass = "a-new-ts-widget";
+            alert("constructor was called");
+            alert("another one was called...");
             return _this;
         }
         Widget.prototype.postCreate = function () {

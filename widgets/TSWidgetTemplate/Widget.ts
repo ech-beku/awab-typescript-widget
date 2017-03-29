@@ -1,6 +1,6 @@
 import BaseWidget = require("jimu/BaseWidget");
 import lang = require("dojo/_base/lang");
-
+import array = require("dojo/_base/array");
 
 class Widget extends BaseWidget {
 
@@ -11,6 +11,9 @@ class Widget extends BaseWidget {
 
   constructor(args?) {
     super(lang.mixin({baseClass: "a-new-ts-widget"}, args));
+
+    alert("constructor was called");
+    alert("another one was called...");
   }
 
 
